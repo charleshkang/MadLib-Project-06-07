@@ -35,7 +35,7 @@
     NSLog(@"%@", noun);
     NSLog(@"%@", verb);
     NSLog(@"%@", result);
-    self.result.text = [NSString stringWithFormat:@"%@ %@ over %@ the %@", name, adjective, noun, verb];
+    self.result.text = [NSString stringWithFormat:@"%@ %@ over the %@ %@", name, adjective, verb, noun];
 }
 
 
